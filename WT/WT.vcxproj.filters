@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ARTCC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorconvert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctracks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataThread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbfopen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbg_mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fnmatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_map_fns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lookup3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mgl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkgmtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nexrad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pulseserver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Routes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="servers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shpopen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srfc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSLThreadSupport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strptime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tracking.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLFlightPlans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shares.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ARTCC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVILib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorconvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colordefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg_mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feedstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fnmatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_map_fns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lookup3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="miniunz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nexrad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nrutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pulseserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Routes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="servers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srfc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSLThreadSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strptime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tailor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TexFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tracks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xtrafm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="airplane.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Surface.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\HTML\surf\images\checkbox_no.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\HTML\surf\images\checkbox_yes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WT.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Version.vbs" />
+  </ItemGroup>
+</Project>
