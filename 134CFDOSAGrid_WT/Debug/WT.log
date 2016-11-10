@@ -1,0 +1,159 @@
+﻿Build started 11/10/2016 4:27:48 PM.
+     1>Project "C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\WT.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\lib\gecko-sdk\include" /I..\..\lib\ZLib\zlib123 /I"..\..\lib\SDL-1.2.5\include" /I..\..\lib\rough\include /I..\..\lib\mulib /I..\..\lib\gd\include /I"..\..\lib\OpenAL 1.1 SDK\include" /I..\..\lib\Volib /I"..\..\lib\libxml2-2.1.1" /I..\..\lib\openssl\include\openssl /I..\..\lib\openssl\include /I"..\..\lib\json-c" /I..\..\lib\freetype\include /ZI /nologo /W3 /WX- /Od /Oy- /D HAVE_INTTYPES_H /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D WT_EXPORTS /D VO_USE_THREADS /D VO_PREVENT_GLOBAL /D _USE_32BIT_TIME_T /D CURL_STATICLIB /D BGDWIN32 /D _OPENAL32STATICLIB /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt mgl.c
+         mgl.c
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(5651): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6661): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(58) : see declaration of 'localtime'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6672): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6717): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6723): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6724): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6728): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6729): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(6731): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12140): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12143): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12145): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12147): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12209): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(12119): warning C4101: 'vorow' : unreferenced local variable
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(14933): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17697): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17708): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17709): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(17710): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(18339): warning C4013: 'FindFlight' undefined; assuming extern returning int
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(23369): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(25182): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jaya\perforce\wkspc23\products\sm\wt\mgl.c(27526): warning C4101: 'SysAlertsGrid' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\WT.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\rough\Debug /LIBPATH:..\..\lib\mulib\Debug /LIBPATH:"..\..\lib\SDL-1.2.5\lib\Debug" /LIBPATH:"..\..\lib\libxml2-2.1.1\libxml" /LIBPATH:..\..\lib\gd\lib /LIBPATH:..\..\lib\Volib\DebugThreadSafe /LIBPATH:..\..\lib\curl\lib /LIBPATH:..\..\lib\ZLib\zlib123\projects\visualc6\Win32_LIB_Debug /LIBPATH:..\..\lib\libpng\Debug /LIBPATH:..\..\lib\openssl\lib /LIBPATH:"..\..\lib\OpenAL 1.1 SDK\libs\Win32" /LIBPATH:"..\..\lib\json-c\Debug" /LIBPATH:..\..\lib version.lib Wininet.lib gdlibD.lib libcurl.lib libeay32.lib ssleay32.lib ws2_32.lib libpng.lib zlibd.lib libxmld2.lib OpenAL32SD.lib mulib.lib rough.lib jsonD.lib VolibTS.lib freetypeD.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\WT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\WT.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\WT.res
+         Debug\AcTypes.obj
+         Debug\ARTCC.obj
+         Debug\bitmapfont.obj
+         Debug\clist.obj
+         Debug\colorconvert.obj
+         Debug\ctracks.obj
+         Debug\Curl.obj
+         Debug\CWaves.obj
+         Debug\DataThread.obj
+         Debug\dbf.obj
+         Debug\dbfopen.obj
+         Debug\dbg_mem.obj
+         Debug\dllmain.obj
+         Debug\fnmatch.obj
+         Debug\Gates.obj
+         Debug\glutil.obj
+         Debug\hash_map_fns.obj
+         Debug\InstanceData.obj
+         Debug\LoginDialog.obj
+         Debug\lookup3.obj
+         Debug\mgl.obj
+         Debug\mkgmtime.obj
+         Debug\nexrad.obj
+         Debug\pulseserver.obj
+         Debug\regions.obj
+         Debug\Routes.obj
+         Debug\servers.obj
+         Debug\shares.obj
+         Debug\shpopen.obj
+         Debug\SimpleCrypto.obj
+         Debug\srfc.obj
+         Debug\SSLThreadSupport.obj
+         Debug\stdafx.obj
+         Debug\strptime.obj
+         Debug\SurfaceC.obj
+         Debug\texfont.obj
+         Debug\tracking.obj
+         Debug\Vehicle.obj
+         Debug\WT.obj
+         Debug\XMLFlightPlans.obj
+     1>AcTypes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library Debug\WT.lib and object Debug\WT.exp
+     1>gdlibD.lib(gd.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_gif_out.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_gif_out.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gdhelpers.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gdhelpers.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_io.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_io.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_io_dp.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_io_dp.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_io_file.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_io_file.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_security.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_security.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_png.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_png.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gdtables.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gdtables.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>gdlibD.lib(gd_topal.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'gdlibD.lib(gd_topal.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alBuffer.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alBuffer.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alEax.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alEax.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alError.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alError.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alExtension.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alExtension.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alListener.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alListener.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alSource.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alSource.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(alState.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(alState.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(ALc.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(ALc.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>OpenAL32SD.lib(ALu.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'OpenAL32SD.lib(ALu.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(arraylist.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(arraylist.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(debug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(debug.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(json_object.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(json_object.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(json_tokener.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(json_tokener.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(json_util.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(json_util.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(linkhash.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(linkhash.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>jsonD.lib(printbuf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'jsonD.lib(printbuf.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(autofit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(autofit.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(bdf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(bdf.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(cff.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(cff.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftbase.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftbitmap.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftbitmap.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftdebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftdebug.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftglyph.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftglyph.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftgzip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftgzip.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftinit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftinit.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftlzw.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftlzw.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(ftsystem.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(ftsystem.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(smooth.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(smooth.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(pcf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(pcf.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(pfr.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(pfr.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(psaux.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(psaux.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(pshinter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(pshinter.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(psmodule.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(psmodule.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(raster.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(raster.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(sfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(sfnt.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(truetype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(truetype.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(type1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(type1.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(type1cid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(type1cid.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(type42.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(type42.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+     1>freetypeD.lib(winfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetypeD.lib(winfnt.obj)' or at 'C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\vc90.pdb'; linking object as if no debug info
+         WT.vcxproj -> C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\WT.dll
+       PostBuildEvent:
+         cscript.exe C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Version.vbs C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\Debug\WT.dll
+         :VCEnd
+         Microsoft (R) Windows Script Host Version 5.8
+         Copyright (C) Microsoft Corporation. All rights reserved.
+         
+         *** WebTracker DLL Version Renaming Script ***
+         *** WebTracker DLL Version Renaming Script Finished ***
+          
+     1>Done Building Project "C:\Users\jaya\Perforce\wkspc23\Products\SM\WT\WT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.03
